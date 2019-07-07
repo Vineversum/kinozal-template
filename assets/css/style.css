@@ -46,6 +46,25 @@
   .navbar-left li {
     margin: 5px 5px 5px 0; } }
 
+.panel {
+  margin-bottom: 30px;
+  border: none;
+  background-color: #f1f1f1; }
+  .panel-default > .panel-heading {
+    color: #ffffff;
+    background-color: #df8a13;
+    border: none; }
+  .panel-title {
+    font-size: 1.2rem;
+    letter-spacing: 0.1em; }
+  .panel-body {
+    border-radius: 4px;
+    border: 1px solid #dddddd; }
+
+.input-lg,
+.input-group-lg > .form-control {
+  font-size: 0.875rem; }
+
 html {
   font-size: 16px; }
 
@@ -116,3 +135,12 @@ section {
       color: #ffffff;
       letter-spacing: 0.2em;
       font-size: 1.15rem; }
+
+.left-sidebar {
+  margin-bottom: 60px; }
+
+.vertical-slider {
+  border-radius: 4px;
+  overflow: hidden; }
+  .vertical-slider img {
+    width: 100%; }
