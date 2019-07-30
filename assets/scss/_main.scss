@@ -11,7 +11,7 @@
             position: absolute;
             margin: 0.8em 0 0 10px;
             height: 3px;
-            background-color: $color-accent;
+            background-color: #f7b151;
             width: 100%;
         }
     }
@@ -39,8 +39,7 @@
     }
 }
 .new-films,
-.top-week,
-{
+.top-week {
     position: relative;
     margin-bottom: 55px;
     &-item {

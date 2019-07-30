@@ -1,0 +1,19 @@
+.footer {
+    background-color: $color-dark;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h4 {
+        color: $color-gray;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        a {
+            color: #61605e;
+            &:hover {
+                color: $color-light;
+            }
+        }
+    }
+}

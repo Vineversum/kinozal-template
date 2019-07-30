@@ -146,7 +146,7 @@ section {
     position: absolute;
     margin: 0.8em 0 0 10px;
     height: 3px;
-    background-color: #df8a13;
+    background-color: #f7b151;
     width: 100%; }
 
 .top-week h1 {
@@ -321,3 +321,18 @@ section {
 @media (max-width: 991px) {
   .vertical-slider {
     display: none; } }
+
+.footer {
+  background-color: #232323;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .footer h4 {
+    color: #dddddd; }
+  .footer ul {
+    list-style: none;
+    padding: 0; }
+    .footer ul a {
+      color: #61605e; }
+      .footer ul a:hover {
+        color: #ffffff; }
