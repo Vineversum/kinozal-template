@@ -1,0 +1,116 @@
+.main {
+    form {
+        margin: 0px 0 50px 0;
+    }
+}
+.new-films {
+    h1 {
+        margin: 10px 0 45px 0;
+        &::after {
+            content: "";
+            position: absolute;
+            margin: 0.8em 0 0 10px;
+            height: 3px;
+            background-color: $color-accent;
+            width: 100%;
+        }
+    }
+}
+.top-week {
+    h1 {
+        margin: 10px 0 45px 40px;
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            margin: 0.25em 5px 0 0;
+            height: 3px;
+            background-color: #f7b151;
+            width: 35px;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            margin: 0.8em 0 0 10px;
+            height: 3px;
+            background-color: #f7b151;
+            width: 100%;
+        }
+    }
+}
+.new-films,
+.top-week,
+{
+    position: relative;
+    margin-bottom: 55px;
+    &-item {
+        img {
+            width: 100%;
+            margin: 0;
+        }
+        .caption {
+            text-align: center;
+            padding: 10px;
+            strong {
+                display: block;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+        
+        .thumbnail:hover {
+            background-color: $color-accent;
+            border-color: $color-accent;
+            transition: background-color 0.25s;
+            strong {
+                color: $color-light;
+            }
+        }
+    }
+}
+.films-news {
+    margin-bottom: 55px;
+    h1 {
+        margin: 10px 0 45px 40px;
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            margin: 0.25em 5px 0 0;
+            height: 3px;
+            background-color: #f7b151;
+            width: 35px;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            margin: 0.8em 0 0 10px;
+            height: 3px;
+            background-color: #f7b151;
+            width: 100%;
+        }
+    }
+    &-item {
+        img {
+            width: 100%;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .btn {
+            float: right;
+            margin-bottom: 30px;
+        }
+        &:hover {
+            .thumbnail {
+                background-color: $color-accent;
+                border-color: $color-accent;
+                transition: background-color 0.25s;
+            }
+            .btn {
+                background-color: $color-accent;
+            }
+        }
+    }
+}
