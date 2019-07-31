@@ -1,11 +1,11 @@
 .film-video {
     margin-bottom: 55px;
     h1 {
-        margin: 10px 0 45px 0;
+        margin: 3px 0 40px 0;
         &::after {
             content: "";
             position: absolute;
-            margin: 0.8em 0 0 10px;
+            margin: 0.85em 0 0 13px;
             height: 3px;
             background-color: #f7b151;
             width: 100%;
@@ -17,6 +17,7 @@
         padding-top: 30px;
         height: 0;
         overflow: hidden;
+        border-radius: 4px 4px 0 0;
         iframe {
             position: absolute;
             top: 0;
@@ -30,10 +31,12 @@
         text-align: center;
         padding: 20px;
         span {
-            margin-left: 15px;
-            margin-right: 15px;
+            font-size: 1.2rem;
+            margin-left: 13px;
+            margin-right: 13px;
             span {
                 margin: 0;
+                font-size: 0.95rem;
             }
         }
     }
@@ -41,13 +44,13 @@
 
 .film-about {
     margin-bottom: 55px;
-    h1 {
-        margin: 10px 0 45px 40px;
+    h2 {
+        margin: 10px 0 40px 40px;
         &::before {
             content: "";
             position: absolute;
-            left: 0;
-            margin: 0.25em 5px 0 0;
+            left: -8px;
+            margin: 0.25em 0px 0 0;
             height: 3px;
             background-color: #f7b151;
             width: 35px;
@@ -55,7 +58,7 @@
         &::after {
             content: "";
             position: absolute;
-            margin: 0.8em 0 0 10px;
+            margin: 0.85em 0 0 16px;
             height: 3px;
             background-color: #f7b151;
             width: 100%;
@@ -70,13 +73,13 @@
 }
 
 .film-rewiews {
-    h1 {
-        margin: 10px 0 45px 40px;
+    h2 {
+        margin: 10px 0 40px 40px;
         &::before {
             content: "";
             position: absolute;
-            left: 0;
-            margin: 0.25em 5px 0 0;
+            left: -8px;
+            margin: 0.25em 0px 0 0;
             height: 3px;
             background-color: #f7b151;
             width: 35px;
@@ -84,7 +87,7 @@
         &::after {
             content: "";
             position: absolute;
-            margin: 0.8em 0 0 10px;
+            margin: 0.85em 0 0 16px;
             height: 3px;
             background-color: #f7b151;
             width: 100%;
@@ -94,13 +97,13 @@
 
 .film-comment {
     margin-bottom: 55px;
-    h1 {
-        margin: 10px 0 45px 40px;
+    h2 {
+        margin: 10px 0 40px 40px;
         &::before {
             content: "";
             position: absolute;
-            left: 0;
-            margin: 0.25em 5px 0 0;
+            left: -8px;
+            margin: 0.25em 0px 0 0;
             height: 3px;
             background-color: #f7b151;
             width: 35px;
@@ -108,7 +111,7 @@
         &::after {
             content: "";
             position: absolute;
-            margin: 0.8em 0 0 10px;
+            margin: 0.85em 0 0 16px;
             height: 3px;
             background-color: #f7b151;
             width: 100%;

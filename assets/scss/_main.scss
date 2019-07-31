@@ -5,11 +5,11 @@
 }
 .new-films {
     h1 {
-        margin: 10px 0 45px 0;
+        margin: 3px 0 40px 0;
         &::after {
             content: "";
             position: absolute;
-            margin: 0.8em 0 0 10px;
+            margin: 0.85em 0 0 13px;
             height: 3px;
             background-color: #f7b151;
             width: 100%;
@@ -17,13 +17,13 @@
     }
 }
 .top-week {
-    h1 {
-        margin: 10px 0 45px 40px;
+    h2 {
+        margin: 10px 0 40px 40px;
         &::before {
             content: "";
             position: absolute;
-            left: 0;
-            margin: 0.25em 5px 0 0;
+            left: -8px;
+            margin: 0.25em 0px 0 0;
             height: 3px;
             background-color: #f7b151;
             width: 35px;
@@ -31,7 +31,7 @@
         &::after {
             content: "";
             position: absolute;
-            margin: 0.8em 0 0 10px;
+            margin: 0.85em 0 0 16px;
             height: 3px;
             background-color: #f7b151;
             width: 100%;
@@ -42,7 +42,13 @@
 .top-week {
     position: relative;
     margin-bottom: 55px;
+    .row {
+        margin-left: -7.5px;
+        margin-right: -7.5px;
+    }
     &-item {
+        padding-left: 7.5px;
+        padding-right: 7.5px;
         img {
             width: 100%;
             margin: 0;
@@ -57,7 +63,9 @@
                 overflow: hidden;
             }
         }
-        
+        .thumbnail {
+            margin-bottom: 15px;
+        }
         .thumbnail:hover {
             background-color: $color-accent;
             border-color: $color-accent;
@@ -70,13 +78,13 @@
 }
 .films-news {
     margin-bottom: 55px;
-    h1 {
-        margin: 10px 0 45px 40px;
+    h2 {
+        margin: 10px 0 40px 40px;
         &::before {
             content: "";
             position: absolute;
-            left: 0;
-            margin: 0.25em 5px 0 0;
+            left: -8px;
+            margin: 0.25em 0px 0 0;
             height: 3px;
             background-color: #f7b151;
             width: 35px;
@@ -84,7 +92,7 @@
         &::after {
             content: "";
             position: absolute;
-            margin: 0.8em 0 0 10px;
+            margin: 0.85em 0 0 16px;
             height: 3px;
             background-color: #f7b151;
             width: 100%;
@@ -100,6 +108,9 @@
         .btn {
             float: right;
             margin-bottom: 30px;
+        }
+        .thumbnail {
+            margin-bottom: 15px;
         }
         &:hover {
             .thumbnail {

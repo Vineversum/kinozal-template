@@ -44,8 +44,8 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="navbar-top">
             <ul class="nav navbar-nav navbar-left">
-              <li class="active"><a href="#">Главная</a></li>
-              <li><a href="#">Фильмы</a></li>
+              <li><a href="#">Главная</a></li>
+              <li class="active"><a href="index.html">Фильмы</a></li>
               <li><a href="">Сериалы</a></li>
               <li><a href="">Контакты</a></li>
             </ul>
@@ -82,7 +82,7 @@
         
         <section class="film-video">
           <h1>Иллюзия обмана 2</h1>
-          <div class="film-video-player">
+          <div class="film-video-player embed-responsive embed-responsive-16by9">
             <iframe width="850" height="477" src="https://www.youtube.com/embed/AC9MkUbr6qY" allow="accelerometer; autoplay; encrypted-media; gyroscope;picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="film-video-info">
@@ -93,15 +93,15 @@
         </section>
 
         <section class="film-about">
-          <h1>Описание фильма</h1>
+          <h2>Описание фильма</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis sit, nesciunt, consequuntur hic molestiae nam voluptas natus rem porro eum vel quaerat. Dolore ullam odio fugit totam. Odit, animi? Placeat dignissimos atque corrupti aperiam. Numquam eveniet quisquam dolorem omnis natus atque. Incidunt cum hic, animi molestias necessitatibus perspiciatis? Omnis tempore facere odio accusantium accusamus aliquid atque repudiandae ab, quae expedita ipsam laudantium corporis et voluptate dicta sit necessitatibus in harum nihil veritatis itaque porro quia. Animi, repellendus mollitia! Odit, atque?</p>
         </section>
 
         <section class="film-rewiews">
-          <h1>Отзывы о фильме</h1>
+          <h2>Отзывы о фильме</h2>
           <div class="rewiew panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title"><i class="fas fa-user-alt"></i> Владимир</h3>
+              <span><i class="fas fa-user-alt"></i> Владимир</h3>
             </div>
             <div class="panel-body">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae similique et dolor ducimus, deleniti dicta officia. Officiis quas corrupti asperioresmolestias accusantium reprehenderit eius, error, provident vel fuga veritatis libero!</p>
@@ -109,7 +109,7 @@
           </div>
             <div class="rewiew panel panel-default">
               <div class="panel-heading">
-                <h3 class="panel-title"><i class="fas fa-user-alt"></i> Евгения</h3>
+                <span><i class="fas fa-user-alt"></i> Евгения</span>
               </div>
               <div class="panel-body">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae similique et dolor ducimus, deleniti dicta officia. Officiis quas corrupti asperioresmolestias accusantium reprehenderit eius, error, provident vel fuga veritatis libero!</p>
@@ -118,12 +118,12 @@
         </section>
 
         <section class="film-comment">
-          <h1>Оставить комментарий</h1>
+          <h2>Оставить комментарий</h2>
           <form action="URL">
               <input type="text" class="form-control input-lg" placeholder="Ваше имя">
               <input type="email" class="form-control input-lg" placeholder="Укажите свой Email">
               <textarea rows="6" placeholder="Напишите свой комментарий здесь..."></textarea>
-              <button type="submit" class="btn btn-warning">Отправить</button>
+              <button type="submit" class="btn btn-lg btn-warning">Отправить</button>
           </form>
         </section>
           
@@ -293,50 +293,52 @@
   </div>
     
   <footer class="footer">
-        <div class="container-fluid">
-          <div class="row">
-              <div class="container">
-                  <div class="row">
-                    <footer-item class="col-md-3 col-xs-6">
-                      <h4>Lorem ipsum dolor sit.</h4>
-                      <ul>
-                        <li class><a href="#">Lorem, ipsum dolor.</a></li>
-                        <li class><a href="#">Assumenda, dolorem dolor!</a></li>
-                        <li class><a href="#">Impedit, asperiores adipisci!</a></li>
-                        <li class><a href="#">Ipsam, distinctio ipsa.</a></li>
-                      </ul>
-                    </footer-item>
-                    <footer-item class="col-md-3 col-xs-6">
-                      <h4>Lorem ipsum dolor sit.</h4>
-                      <ul>
-                        <li class><a href="#">Lorem, ipsum dolor.</a></li>
-                        <li class><a href="#">Assumenda, dolorem dolor!</a></li>
-                        <li class><a href="#">Impedit, asperiores adipisci!</a></li>
-                        <li class><a href="#">Ipsam, distinctio ipsa.</a></li>
-                      </ul>
-                    </footer-item>
-                    <footer-item class="col-md-3 col-xs-6">
-                      <h4>Lorem ipsum dolor sit.</h4>
-                      <ul>
-                        <li class><a href="#">Lorem, ipsum dolor.</a></li>
-                        <li class><a href="#">Assumenda, dolorem dolor!</a></li>
-                        <li class><a href="#">Impedit, asperiores adipisci!</a></li>
-                        <li class><a href="#">Ipsam, distinctio ipsa.</a></li>
-                      </ul>
-                    </footer-item>
-                    <footer-item class="col-md-3 col-xs-6">
-                      <h4>Lorem ipsum dolor sit.</h4>
-                      <ul>
-                        <li class><a href="#">Lorem, ipsum dolor.</a></li>
-                        <li class><a href="#">Assumenda, dolorem dolor!</a></li>
-                        <li class><a href="#">Impedit, asperiores adipisci!</a></li>
-                        <li class><a href="#">Ipsam, distinctio ipsa.</a></li>
-                      </ul>
-                    </footer-item>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                  <div class="footer-item col-md-3 col-xs-6">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <ul>
+                      <li class><a href="#">Lorem, ipsum dolor.</a></li>
+                      <li class><a href="#">Assumenda, dolorem dolor!</a></li>
+                      <li class><a href="#">Impedit, asperiores adipisci!</a></li>
+                      <li class><a href="#">Ipsam, distinctio ipsa.</a></li>
+                    </ul>
                   </div>
-                </div>    
-          </div>
+                  <div class="footer-item col-md-3 col-xs-6">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <ul>
+                      <li class><a href="#">Lorem, ipsum dolor.</a></li>
+                      <li class><a href="#">Assumenda, dolorem dolor!</a></li>
+                      <li class><a href="#">Impedit, asperiores adipisci!</a></li>
+                      <li class><a href="#">Ipsam, distinctio ipsa.</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-item col-md-3 col-xs-6">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <ul>
+                      <li class><a href="#">Lorem, ipsum dolor.</a></li>
+                      <li class><a href="#">Assumenda, dolorem dolor!</a></li>
+                      <li class><a href="#">Impedit, asperiores adipisci!</a></li>
+                      <li class><a href="#">Ipsam, distinctio ipsa.</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-item col-md-3 col-xs-6">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <ul>
+                      <li class><a href="#">Lorem, ipsum dolor.</a></li>
+                      <li class><a href="#">Assumenda, dolorem dolor!</a></li>
+                      <li class><a href="#">Impedit, asperiores adipisci!</a></li>
+                      <li class><a href="#">Ipsam, distinctio ipsa.</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="copyright"><strong>All Rights Reserved (c)</strong>
+                </div>
+              </div>    
         </div>
+      </div>
   </footer>
 
 <script src="libs/jquery/dist/jquery.min.js"></script>
